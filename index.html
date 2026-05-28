@@ -1,107 +1,187 @@
-<!doctype html>
-<!-- laundry · service-red · hero-layout 0 · svc-layout 0 · generated from live Google Places data for Bon&#x27;s Cleaners &amp; Laundry -->
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Bon&#x27;s Cleaners &amp; Laundry — Laundry, Long Beach</title>
-<meta name="description" content="Bon&#x27;s Cleaners &amp; Laundry — Laundry in Long Beach.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Saira:wght@500;600;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<!-- cleaners · boutique-seamstress · hero-layout 1 · svc-layout 1 -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bon's Cleaners & Laundry — Long Beach</title>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f7f4ee;--surface:#fff;--ink:#1a1410;--mut:#6c6358;--acc:#b8341f;--line:#e0d8cc}
+:root{
+  --bg:#fdf5f3;
+  --blush:#f4cfc6;
+  --blush-dk:#c87b6e;
+  --sage:#8ba88c;
+  --ink:#2d201d;
+  --cream:#fffaf3;
+  --mute:#8a7771;
+}
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'IBM Plex Sans',Georgia,serif;background:var(--bg);color:var(--ink);line-height:1.62;-webkit-font-smoothing:antialiased}
-.disp{font-family:'Saira',sans-serif}
-a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
-img{max-width:100%;display:block}
-.wrap{max-width:1120px;margin:0 auto;padding:0 26px}
-header{padding:16px 0;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:30}
-header .row{display:flex;align-items:center;justify-content:space-between;gap:16px}
-.brand{font-family:'Saira',sans-serif;font-weight:700;font-size:21px;letter-spacing:-.01em;color:var(--ink)}
-nav a{margin-left:20px;color:var(--mut);font-size:13.5px;font-weight:500}nav a:hover{color:var(--acc);text-decoration:none}
-.callbtn{display:inline-flex;align-items:center;gap:7px;background:var(--acc);color:#fff;padding:9px 16px;border-radius:8px;font-weight:600;font-size:13.5px;margin-left:20px}
-.callbtn:hover{filter:brightness(.92);text-decoration:none;color:#fff}
-.hero{padding:72px 0 60px}
-.hero .grid{display:grid;grid-template-columns:1.05fr .95fr;gap:46px;align-items:center}
-.kicker{display:inline-block;font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);margin-bottom:18px}
-h1{font-family:'Saira',sans-serif;font-weight:800;font-size:clamp(40px,6.2vw,72px);line-height:1.02;letter-spacing:-.025em;margin-bottom:20px}
-.lede{font-size:18px;color:var(--mut);max-width:480px;margin-bottom:28px}
-.cta{display:flex;gap:12px;flex-wrap:wrap}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:8px;font-weight:600;font-size:14px;border:1.5px solid var(--ink);color:var(--ink);background:transparent}
-.btn:hover{background:var(--ink);color:var(--bg);text-decoration:none}
-.btn.solid{background:var(--acc);border-color:var(--acc);color:#fff}
-.btn.solid:hover{filter:brightness(.92);color:#fff}
-.hero-img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:16px;;}
-.section{padding:62px 0;border-top:1px solid var(--line)}
-.kick{font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);margin-bottom:8px}
-h2{font-family:'Saira',sans-serif;font-weight:700;font-size:34px;letter-spacing:-.02em;margin-bottom:8px}
+html,body{background:var(--bg);color:var(--ink);font-family:'Inter',sans-serif;font-weight:300;line-height:1.6}
+.it{font-family:'Italiana',serif}
+.wrap{max-width:1180px;margin:0 auto;padding:0 32px}
+nav{padding:24px 0;background:var(--bg);border-bottom:1px solid var(--blush)}
+nav .row{display:flex;align-items:center;justify-content:space-between}
+.brand{font-family:'Italiana',serif;font-size:34px;letter-spacing:1px;color:var(--blush-dk)}
+.brand small{display:block;font-family:'Inter',sans-serif;font-size:10px;letter-spacing:6px;color:var(--sage);margin-top:-4px;font-weight:500}
+.cta{background:var(--blush-dk);color:var(--cream);padding:10px 22px;border-radius:999px;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.5px}
 
-.svcs{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:30px}
-.svcs .svc{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:22px}
-.svc-rows{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}
-.svc-rows .svc-row{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:24px 26px;display:flex;align-items:baseline;gap:14px}
-.svc-list{margin-top:30px;border-top:1px solid var(--line)}
-.svc-list .svc-line{display:flex;align-items:baseline;gap:18px;padding:22px 0;border-bottom:1px solid var(--line)}
-.snum{font-family:'Saira',sans-serif;font-size:13px;color:var(--acc);font-weight:600;letter-spacing:.08em}
-.svcs .svc h3,.svc-rows .svc-row h3,.svc-list .svc-line h3{font-family:'Saira',sans-serif;font-weight:600;font-size:19px;margin-top:10px;letter-spacing:-.01em}
+.hero{padding:80px 0 90px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;width:440px;height:440px;border-radius:50%;background:var(--blush);opacity:.4;top:50px;right:-160px;filter:blur(40px)}
+.hero .grid{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.pre{font-family:'Italiana',serif;font-size:22px;color:var(--blush-dk);font-style:italic;letter-spacing:1px;margin-bottom:12px}
+.hero h1{font-family:'Italiana',serif;font-size:clamp(56px,8vw,108px);line-height:.95;letter-spacing:-1.5px;color:var(--ink)}
+.hero h1 em{font-style:italic;color:var(--blush-dk)}
+.hero .lede{margin-top:24px;font-size:18px;color:#4a3a36;max-width:480px;line-height:1.7}
+.hero .row2{margin-top:36px;display:flex;gap:16px;flex-wrap:wrap}
+.chip{padding:10px 20px;background:var(--cream);border:1px solid var(--blush);border-radius:999px;font-size:13px;color:var(--ink);font-weight:500}
+.chip b{color:var(--blush-dk)}
+.hero-pic{position:relative;aspect-ratio:4/5;background:linear-gradient(135deg,var(--blush) 0%,var(--sage) 100%);border-radius:14px;display:flex;align-items:center;justify-content:center;box-shadow:0 30px 60px rgba(200,123,110,.2)}
+.hero-pic .gem{font-family:'Italiana',serif;font-size:200px;color:var(--cream);opacity:.85}
+.hero-pic .stamp{position:absolute;bottom:24px;left:24px;right:24px;background:rgba(255,250,243,.95);padding:20px 24px;border-radius:8px}
+.hero-pic .stamp b{display:block;font-family:'Italiana',serif;font-size:22px;color:var(--blush-dk)}
+.hero-pic .stamp span{font-size:13px;color:var(--mute)}
 
-.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:28px}
-.gallery img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:12px;border:1px solid var(--line)}
-.quotes{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:28px}
-.q{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:24px}
-.q p{font-family:'Saira',sans-serif;font-size:18px;line-height:1.5;margin-bottom:12px}
-.q .who{font-size:13px;font-weight:600;color:var(--acc)}
-.visit{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:16px;overflow:hidden;margin-top:28px}
-.visit .info{padding:30px 32px;background:var(--surface)}
-.hrow{display:grid;grid-template-columns:120px 1fr;gap:12px;padding:9px 0;border-bottom:1px solid var(--line);font-size:14.5px}
-.hrow:last-child{border-bottom:0}.hd{font-weight:600}.ht{color:var(--mut)}
-.visit iframe{width:100%;height:100%;min-height:360px;border:0}
-.contact-line{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
-footer{background:var(--ink);color:var(--bg);padding:32px 0 46px;border-top:1px solid var(--line)}
-footer .fbrand{font-family:'Saira',sans-serif;font-weight:700;font-size:18px}
-footer .credit{margin-top:10px;font-size:13px;opacity:.82}footer a{color:var(--acc)}
-@media(max-width:800px){.hero .grid{grid-template-columns:1fr}.hero-img{order:0;aspect-ratio:16/10}.svcs{grid-template-columns:1fr 1fr}.svc-rows{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.quotes,.visit{grid-template-columns:1fr}nav{display:none}.visit iframe{min-height:280px}}
+.svc{padding:100px 0;background:var(--cream)}
+.svc h2{font-family:'Italiana',serif;font-size:56px;text-align:center;color:var(--ink);letter-spacing:-.5px}
+.svc .pre{text-align:center;display:block}
+.svcgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:50px}
+.scard{padding:36px 28px;border-radius:14px;background:var(--bg);border:1px solid var(--blush);text-align:center}
+.scard .ico{width:60px;height:60px;border-radius:50%;background:var(--blush);color:var(--cream);font-family:'Italiana',serif;font-size:28px;display:flex;align-items:center;justify-content:center;margin:0 auto 16px}
+.scard:nth-child(2) .ico{background:var(--sage)}
+.scard:nth-child(3) .ico{background:var(--blush-dk)}
+.scard h3{font-family:'Italiana',serif;font-size:24px;color:var(--ink);letter-spacing:-.3px}
+.scard p{margin-top:10px;font-size:14px;color:var(--mute);line-height:1.6}
+.scard .price{margin-top:14px;font-family:'Italiana',serif;font-size:20px;color:var(--blush-dk)}
+
+.story{padding:100px 0}
+.story .grid{display:grid;grid-template-columns:1fr 1.4fr;gap:80px;align-items:center}
+.story .photo{aspect-ratio:1/1;background:var(--blush);border-radius:50%;border:10px solid var(--cream);box-shadow:0 30px 80px rgba(200,123,110,.18);display:flex;align-items:center;justify-content:center}
+.story .photo span{font-family:'Italiana',serif;font-size:80px;color:var(--cream);text-align:center;line-height:1.05;padding:0 20px}
+.story h2{font-family:'Italiana',serif;font-size:54px;letter-spacing:-.5px;color:var(--ink)}
+.story h2 em{font-style:italic;color:var(--blush-dk)}
+.story p{margin-top:18px;font-size:17px;color:#3d2d29;line-height:1.75}
+.story p + p{margin-top:14px}
+
+.praise{padding:100px 0;background:var(--cream)}
+.praise h2{font-family:'Italiana',serif;font-size:54px;color:var(--ink);text-align:center;letter-spacing:-.5px}
+.praise .pre{text-align:center;display:block}
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:50px}
+.pcard{background:var(--bg);padding:30px 26px;border-radius:14px;border-left:4px solid var(--blush-dk);position:relative}
+.pcard .star{color:var(--blush-dk);letter-spacing:3px;font-size:14px}
+.pcard .t{font-family:'Italiana',serif;font-style:italic;font-size:18px;color:var(--ink);margin-top:14px;line-height:1.5}
+.pcard .who{margin-top:18px;font-size:12px;letter-spacing:2px;color:var(--sage);text-transform:uppercase;font-weight:700}
+
+.visit{padding:100px 0}
+.visit .grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start}
+.visit h2{font-family:'Italiana',serif;font-size:54px;color:var(--ink);letter-spacing:-.5px}
+.visit h2 em{font-style:italic;color:var(--blush-dk)}
+.visit .det{margin-top:30px;display:grid;gap:16px}
+.visit .row{padding:20px;background:var(--cream);border-radius:14px;display:grid;grid-template-columns:50px 1fr;gap:14px;align-items:center}
+.visit .row .ic{width:40px;height:40px;border-radius:50%;background:var(--sage);color:var(--cream);display:flex;align-items:center;justify-content:center;font-family:'Italiana',serif;font-size:20px}
+.visit .row b{font-family:'Italiana',serif;font-size:18px;color:var(--ink)}
+.visit .row a{color:var(--blush-dk);text-decoration:none;font-weight:600}
+.visit .row span{font-size:13px;color:var(--mute);display:block;margin-top:2px}
+.hourcard{background:var(--blush);padding:36px;border-radius:14px}
+.hourcard h3{font-family:'Italiana',serif;font-size:32px;color:var(--ink);text-align:center;margin-bottom:20px}
+.hr{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid rgba(255,250,243,.4);font-size:15px}
+.hr:last-child{border-bottom:none}
+.hr b{color:var(--ink);font-weight:600}
+.hr span{color:var(--cream)}
+.hr.closed span{font-style:italic;color:var(--blush-dk)}
+
+footer{padding:50px 0 36px;text-align:center;background:var(--ink);color:var(--cream)}
+footer .b{font-family:'Italiana',serif;font-size:38px;color:var(--blush);letter-spacing:1px}
+footer .det{margin-top:14px;font-size:14px;color:#bda99f}
+footer .det a{color:var(--blush);text-decoration:none}
+footer .credit{margin-top:32px;padding-top:22px;border-top:1px solid #4a3833;font-size:12px;color:#8a7771}
+footer .credit a{color:var(--blush)}
+
+@media (max-width:880px){
+  .hero .grid,.story .grid,.visit .grid{grid-template-columns:1fr;gap:40px}
+  .svcgrid,.pgrid{grid-template-columns:1fr}
+  .hero h1{font-size:50px}
+}
 </style></head><body>
-<header><div class="wrap row">
-  <div class="brand">Bon&#x27;s Cleaners &amp; Laundry</div>
-  <div style="display:flex;align-items:center"><nav><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#visit">Visit</a></nav><a class="callbtn" href="tel:+15624368795">Call (562) 436-8795</a></div>
-</div></header>
 
-<section class="hero"><div class="wrap"><div class="grid">
+<nav><div class="wrap row">
+  <div class="brand">Bon's Cleaners<small>&amp; LAUNDRY · LONG BEACH</small></div>
+  <a class="cta" href="tel:+15624368795">(562) 436-8795</a>
+</div></nav>
+
+<header class="hero"><div class="wrap"><div class="grid">
   <div>
-    <span class="kicker">Crisp, clean, on time</span>
-    <h1 class="disp">Same-day care,<br>without the rush.</h1>
-    <p class="lede">A neighborhood laundry that's earned its regulars the honest way — by being good at what it does. Here's everything you need to find us, reach us, and stop by.</p>
-    <div class="cta"><a class="btn solid" href="tel:+15624368795">Call (562) 436-8795</a><a class="btn" href="#visit">Hours &amp; location</a></div>
+    <div class="pre">— Owner-run, since 1985 —</div>
+    <h1>Christine takes care of it. <em>All of it.</em></h1>
+    <p class="lede">A quiet, owner-run dry cleaner on Pine Avenue — fast, professional, and remarkably forgiving of last-minute prom-dress emergencies. Same-day service when we can, and a smile every time.</p>
+    <div class="row2">
+      <div class="chip">⌂ <b>Pine Ave</b> · downtown LBC</div>
+      <div class="chip">★ <b>Christine</b>, owner</div>
+      <div class="chip">⏱ <b>Same-Day</b> available</div>
+    </div>
   </div>
-  <img class="hero-img" src="https://lh3.googleusercontent.com/place-photos/AJRVUZPHyTJQbfiqEsVQraOIWbSzlXvP8QUGNWtWjMrR4kK6Q6-LfzbTWT6E_80MuGmJm_nf_I00iblo9n47LE5sq_bC8mPKMXe1cYIJ93S1R6yr5TgYCi6Gk6hl9_V_3k49wfrR-b6BmFLsP6WIkis=s4800-w1600" alt="Bon&#x27;s Cleaners &amp; Laundry">
+  <div class="hero-pic">
+    <div class="gem">Bon</div>
+    <div class="stamp"><b>"Fast, quality, professional — with a smile."</b><span>Tom L. · 5-star Google review</span></div>
+  </div>
+</div></div></header>
+
+<section class="svc"><div class="wrap">
+  <div class="pre">— What We Do —</div>
+  <h2>Services.</h2>
+  <div class="svcgrid">
+    <div class="scard"><div class="ico">D</div><h3>Dry Cleaning</h3><p>Shirts, slacks, suits, blouses — pressed properly, returned on the hanger.</p><div class="price">from $4.50</div></div>
+    <div class="scard"><div class="ico">A</div><h3>Alterations</h3><p>Hems, button-ups, prom dresses on a deadline. Walk-ins welcome.</p><div class="price">from $14</div></div>
+    <div class="scard"><div class="ico">L</div><h3>Laundered Shirts</h3><p>Wash, press, fold or hung — your call. Volume pricing on bulk drop-offs.</p><div class="price">from $3</div></div>
+  </div>
+</div></section>
+
+<section class="story"><div class="wrap"><div class="grid">
+  <div class="photo"><span>since<br>'85</span></div>
+  <div>
+    <div class="pre" style="margin-bottom:8px">— A neighborhood fixture —</div>
+    <h2>Pine Avenue's <em>quiet legend</em>.</h2>
+    <p>Bon's has been on Pine for decades — long enough that the regulars don't bother to give their name, and the owner already knows what's on the hanger. Quality work, careful intake, no fuss.</p>
+    <p>Bring us the prom dress, the wedding suit, the work shirts you forgot about on Sunday night. Christine will figure out how to make it work — and she'll do it with a smile.</p>
+  </div>
 </div></div></section>
 
-<section class="section" id="services"><div class="wrap">
-  <div class="kick">Crisp, clean, on time</div>
-  <h2>What we do.</h2>
-  <div class="svcs"><div class="svc"><span class="snum">01</span><h3>Dry cleaning</h3></div><div class="svc"><span class="snum">02</span><h3>Wash &amp; fold</h3></div><div class="svc"><span class="snum">03</span><h3>Alterations &amp; repairs</h3></div><div class="svc"><span class="snum">04</span><h3>Specialty garments</h3></div></div>
-</div></section>
-
-
-<section class="section"><div class="wrap"><div class="kick">In their words</div><h2>What people say.</h2><div class="quotes"><div class="q"><p>She is very good and super friendly! Not too pricey either.</p><div class="who">— Roderick C.</div></div><div class="q"><p>I&#x27;ve gone to Bon&#x27;s for my (infrequent) dry cleaning needs for several years. The service has always been the same: Fast, quality, and professional service with a smile. Can&#x27;t ask for much more than that.  The owner has a…</p><div class="who">— Tom L.</div></div><div class="q"><p>This was our first time visiting the shop. My daughter and I came in with a last minute prom dress emergency, and the owner Christine was absolutely amazing.</p><div class="who">— Amber J.</div></div></div></div></section>
-
-<section class="section" id="visit"><div class="wrap">
-  <div class="kick">Find us</div>
-  <h2>Visit Bon&#x27;s.</h2>
-  <div class="visit">
-    <div class="info">
-      <div class="contact-line"><a class="btn solid" href="tel:+15624368795">Call (562) 436-8795</a><a class="btn" href="https://www.google.com/maps/search/?api=1&query=565+Pine+Ave,+Long+Beach,+CA+90802,+USA" target="_blank" rel="noopener">Get directions</a></div>
-      <div class="hrow"><span class="hd">Address</span><span class="ht">565 Pine Ave, Long Beach, CA 90802, USA</span></div>
-      <div class="hrow"><span class="hd">Phone</span><span class="ht"><a href="tel:+15624368795">(562) 436-8795</a></span></div>
-      <div class="hrow"><span class="hd">Monday</span><span class="ht">9:00 AM – 5:00 PM</span></div><div class="hrow"><span class="hd">Tuesday</span><span class="ht">9:00 AM – 5:00 PM</span></div><div class="hrow"><span class="hd">Wednesday</span><span class="ht">1:30 – 5:00 PM</span></div><div class="hrow"><span class="hd">Thursday</span><span class="ht">9:00 AM – 5:00 PM</span></div><div class="hrow"><span class="hd">Friday</span><span class="ht">9:00 AM – 5:00 PM</span></div><div class="hrow"><span class="hd">Saturday</span><span class="ht">9:00 AM – 2:00 PM</span></div><div class="hrow"><span class="hd">Sunday</span><span class="ht">Closed</span></div>
-    </div>
-    <iframe loading="lazy" src="https://www.google.com/maps?q=565+Pine+Ave,+Long+Beach,+CA+90802,+USA&output=embed" title="Map to Bon&#x27;s Cleaners &amp; Laundry"></iframe>
+<section class="praise"><div class="wrap">
+  <div class="pre">— What Customers Say —</div>
+  <h2>Five-star regulars.</h2>
+  <div class="pgrid">
+    <div class="pcard"><div class="star">★ ★ ★ ★ ★</div><div class="t">"I've gone to Bon's for my dry cleaning for several years. Fast, quality, and professional service — with a smile. Can't ask for much more."</div><div class="who">Tom L.</div></div>
+    <div class="pcard"><div class="star">★ ★ ★ ★ ★</div><div class="t">"This was our first time visiting. My daughter and I came in with a last-minute prom dress emergency — Christine was absolutely amazing."</div><div class="who">Amber J.</div></div>
+    <div class="pcard"><div class="star">★ ★ ★ ★ ★</div><div class="t">"She is very good and super friendly. Not too pricey either — a real neighborhood gem."</div><div class="who">Roderick C.</div></div>
   </div>
 </div></section>
 
-<footer><div class="wrap">
-  <div class="fbrand">Bon&#x27;s Cleaners &amp; Laundry</div>
-  <div style="font-size:13px;opacity:.7;margin-top:4px">565 Pine Ave, Long Beach, CA 90802, USA</div>
+<section class="visit"><div class="wrap"><div class="grid">
+  <div>
+    <div class="pre">— Drop-Off & Pick-Up —</div>
+    <h2>Visit the <em>shop</em>.</h2>
+    <div class="det">
+      <div class="row"><div class="ic">⌂</div><div><b>565 Pine Ave</b><span>Long Beach, CA 90802</span></div></div>
+      <div class="row"><div class="ic">☎</div><div><b><a href="tel:+15624368795">(562) 436-8795</a></b><span>Call for rush jobs</span></div></div>
+      <div class="row"><div class="ic">★</div><div><b>Best For</b><span>Suits, dresses, last-minute alterations</span></div></div>
+    </div>
+  </div>
+  <div class="hourcard">
+    <h3>Hours</h3>
+    <div class="hr"><b>Monday</b><span>9 AM – 5 PM</span></div>
+    <div class="hr"><b>Tuesday</b><span>9 AM – 5 PM</span></div>
+    <div class="hr"><b>Wednesday</b><span>1:30 – 5 PM</span></div>
+    <div class="hr"><b>Thursday</b><span>9 AM – 5 PM</span></div>
+    <div class="hr"><b>Friday</b><span>9 AM – 5 PM</span></div>
+    <div class="hr"><b>Saturday</b><span>9 AM – 2 PM</span></div>
+    <div class="hr closed"><b>Sunday</b><span>closed</span></div>
+  </div>
+</div></div></section>
+
+<footer>
+  <div class="b">Bon's Cleaners &amp; Laundry</div>
+  <div class="det">565 Pine Ave · Long Beach · <a href="tel:+15624368795">(562) 436-8795</a></div>
   <div class="credit">Mockup designed by LJ Sites — interested in making this yours? <a href="mailto:LJsites.llc@gmail.com">LJsites.llc@gmail.com</a></div>
-</div></footer>
+</footer>
+
 </body></html>
